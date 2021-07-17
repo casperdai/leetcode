@@ -21,7 +21,6 @@ var inorderTraversal = function(root) {
   var stack = [];
   var curr = root;
   var arr = [];
-  var mid;
   while (curr || stack.length > 0) {
     if (curr) {
       stack.push(curr);
